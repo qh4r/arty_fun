@@ -1,0 +1,21 @@
+** ARTBOARDS
+ * Artboards allow to create multiple 'boards' in one document
+ * you can choose artboard while creating new document
+ * to add more artboards CMD+V for artboard tool and draw new or press on pluses
+
+** PANELS
+ * panels visiblity is accessible in Window menu
+ * TAB causes all panels to disappear - working in non disturbing mode, turned off by TAB too
+ * you can customize left toolbar ontents by clicking ... at the toolbar bottom
+ * you can save and change WORKSPACES in right upper corener (window like button wtth dropdown)
+ * beside zooming and dragging you can navigate image using NAVIGATOR PANEL
+
+**IMAGING
+ ** TYPES
+  * JPG looses quality during compression
+  * GIF do not loose quality but supports only 256 colors
+  * PNG support transpareny and don't have colors limit
+  * TIFF - losless compression
+ * PPI should be at least twice the LINE SCREEN if printing on paper
+ * line screen is paper parameter
+ * when resizing using resampling causes whole document to be resized
