@@ -1,0 +1,68 @@
+***SELECTION TOOLS *******
+ * CMD + D - REMOVES SELECTION
+ * M - Rectangualar marquee (or elipsis),
+   - square with shift
+   - can move around while selectng with SPACE
+   - with selection tool highlighted (M) you can move selection without content
+   - with move tool highlighted (V) you can move selection WITH contents of selected layer(s)
+   - with OPTION (Alt) selection tool starts from center (starting point of selection becomes center)
+ * L - LASSO tools
+ * W - Quick selection / Magic Wand 
+
+**** you can remove history actions from history pannel - by draggin on bin
+
+**** CMD + SPACE turns on ZOOM TOOL -- FOR THE TIME OF KEEPING THOSE 2 PRESSED
+
+**** CMD + H ----  TOGGLE EXTRAS
+
+**** CMD + R - TOGGLE RULLERS!
+ * you can click on a ruler and drag out helper guide line that will stick to spots on image
+ * VIEW > Extras - decides on visibility of highlights and guides
+ 
+**** TO modify selection use SELECT>MODIFY
+   * Feather adds blur to selection
+   * Expands well expands selection
+   * Contract - is opposite of expand
+
+**** Location of images in relation to each other (tabs) can be changed in WINDOW > ARRANGE.
+   * Consolidate all to tabs is a default setting
+
+**** CMD + T -- FREE TRANSFORM
+
+**** IMAGE > ADJUSTMENTS -- allow you to tweak image
+   * to decrease brightness you can enter Shadows/Highlights > check 'Show more Options' and increase Highlights Amount
+
+**** YOU CAN MODIFY SELECTION using SELECT > TRANSFORM SELECTION
+   * while in transfrorm mode you can choose Icon next to interpolation to enter WRAP MODE and have a bit better control
+   * on selection shape
+   * SELECT > GROW -- automaticly selects areas with colors siilar to already selecte -- it expands those areas
+	-- works kind of like a flood fill
+   * SELECT > SIMILAR -- selects all pixels of similar value from whole picture 
+	-- they do not need to touch already selected like using GROW
+
+**** It's best to use quick selection tool with hardness of 100%
+
+**** TO REFINE EDGE -> enter Select and Mask and choose second brush tool
+   * inside of it you can make custom modifications to edges of the selection
+
+**** B - brush tool
+**** Q -- enters QUICK MASK MODE !!!!!!
+   * selection is not marked with red
+   * you can add to mask by painting black
+   * remove from mask by painting white
+   * when mask is READY you can press Q to go back to selection
+
+**** X - SWAP PRIMARY AND SECONDARY COLOR
+
+**** you can select by color range - SELECT > COLOR RANGE
+   * WHILE SAMPLING BY COLOR you can pres shift to add in more colors and make selection more precise
+
+
+**** SELECT > FOCUS AREA - allow photoshop to decide on focus area of the photo and create basic selection
+         - then you can refine
+         - THIS IS BASICALL SUPPOSED TO SELECT : WHAT's IN FOCUS
+
+**** you can SAVE selection - it then is visible as channel
+   * you can then load it 
+   * both commands are available in SELECT menu
+   * you can merge and subtract channels
