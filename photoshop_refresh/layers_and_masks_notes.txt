@@ -1,0 +1,49 @@
+**** CRTL + SHIFT + I - Selection inverse
+
+**** if you select mask created by ADJUSTMENT you can paint black and white on it like any normal mask (and add/remove)
+
+**** Clicking on history element will get you back to that point in time
+   * if you start editing from history point all changes from that point on will be lost
+   * it works quite the same with removing history points
+
+**** Background layer HAS TO BE bottom most layer
+
+**** IN ADOBE BRIDGE
+   * after selecting images you can click TOOLS > PHOTOSHOP > LOAD FILES INTO INDIVIDUAL LAYERS
+   - to create new project with all selected images as separate layers
+
+**** YOU can DRAG and therefor copy layers between projects
+
+**** when moving stuff around pressing SHIFT makes it possible to move in up/down left/right only
+
+**** If you add adjustment layer it will affect ONLY LAYERS UNDER IT!!!
+
+**** you can filtr out layers by type pressing controls in top of layers panel
+**** you can create layers and groups using icons at bootom of layers panel
+**** if you pres CREATE LAYER or CREATE GROUP while HOLDING OPTION you will get dialog allowing you to NAME IT
+
+**** IF YOU RIGHT CLICK AREA THAT HAS MULTIPLE LAYERS YOU WILL GET PROMPT TO SELECT LAYER TO ACTIVE
+**** AUTO-SELECT option in move tool makes you change layers automaticly while clicking on items in them
+**** lock options let you lock all actifity on layer or only some of them
+
+**** SOME DISTIBUTION OPTIONS ARE ONLY AVAILABLE WHEN BACKGROUND IS NOT SELECTED.
+   * THOSE OPTIONS POSITION ELEMENTS RELATIVLY TO WHOLE DOCUMENT AND BACKGROUND
+
+**** IF you create layer group with layers or groups selected, selection will be added to group automaticly
+
+**** BLENDING
+   * Blend modes work similarly to 1st elements of their respective groups
+   * MUTLIPLY makes colors appear darker (the more black the more black is result), white is ignored
+   * LIGHTEN (SCREEN) ignores black and makes elements whiter the more white there is in blending layer
+   * OVERLAY ignores 50% gray and whitens where there is white while darkening the dark regions on blending layer
+
+
+**** LAYER MASKS
+   * you can click add layer mas button at bottom of layers panel to add mask to selected layer
+   * it acts like standard mask - black color hide pixels while white makes them visible ( pixels on layer with mask attached)
+   * you can use gray scale or gradients for masking to recieve mask with changing opacity
+
+**** CMD + E - merge layers - well i merges selected layers into one
+   * Flatten image merges all layers into 1
+
+**** FX are layer effects like drop shadow etc
