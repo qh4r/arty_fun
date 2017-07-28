@@ -1,0 +1,21 @@
+**** C --- CROP TOOL
+   * you can drag handles on sidesof image and press enter to accept crop - therefor cutting down canvas
+   * if DELETE CROPPED PIXELS is not selected crop tool will sort of hide the cropped pixels
+     - they will not be visible in normal mode and picture will appear cropped
+     - they will become visible if accessing crop mode again.
+     - it's best to rly delete pixels as a last resort
+   * to get back NON DELETED CROPPED PIXELS go to IMAGE > REVEAL ALL
+
+   * using crop tool you can expand canvas if you drag 'crop area' outside of curren canvas
+   * DRAGGING CROP AREA WITH ALT MAKES IT START FROM CENTER SAME LIKE IT WORKS FOR SELECTION TOOL
+
+**** if you hold CMD while adding layer it will be added underneath instead of over
+
+**** in IMAGE > CANVAS SIZE
+   * relative causes the addition or substraction of given value from current size of canvas
+
+**** PERSPECTIVE CROP - lets you select non standard areas and crop with changing perspective
+   * there is no option to preserve pixels in this kind of crop
+
+**** IF YOU PRESS AND HOLD outside of CROP TOOL SELECTION you will be able to ROTATE THE SELECTION/IMAGE
+**** you can also use STRAITHEN option available in top menu while cropping to draw a line that should be made horizontal
