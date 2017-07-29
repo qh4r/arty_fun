@@ -1,0 +1,36 @@
+**** ON HISTOGRAM PANEL - dark values are on LEFT and white values are on RIGHT - i basicaly goes from 0 to 255
+
+**** It's best to use adjustments as layers (IN ADJUSTMENTS PANEL)
+     because applying them via IMAGE > ADJUSTMENTS is destructive while adding layer is not
+
+**** If you add adjustment lyaer to a group it will affect only layers UNDER IT in THAT GROUP 
+
+*** In LEVELS we can adjust Number that will be treated AS TRUE WHITE and TRUE BLACK
+    -  defaults are 0 for black and 255 for white
+    -  it might be good idea to set those values to sides of histogram,
+      so that only the values rly used in the image are covered by LEVELS RANGE
+
+**** YOU CAN ADD MASKS TO ADJUSTMENT LYERS just click on linked mask and paint on it black/white (can use gradient)
+
+***** CMD + SHIFT + I -- INVERSE SELECTION
+
+**** IF YOU CHOOSE ADJUSTEMNT WHILE HAVING SELECTION MADE 
+      -- IT WILL AUTOMATICLY CREATE MASK THAT TOUCHES ONLY THIS SELECTION
+
+**** if you CLIP ADJUSTMENT LAYER it will only affect layer RIGHT UNDERNEATH IT and won't affect layers further down
+    -- you an do it by holding OPTION and clickin mouse between ADJUSTMENT AND LAYER UNDER IT
+
+**** CURVES ADJUSTMENT
+    -- gives yo more control then levels
+    -- it gives you more flexibility but is much harder to use then LEVELS
+
+**** HUE/SATURATION
+   * you can change colors
+   * if want to get MONO TONE (one color) use colorize option
+
+**** VIBRANCE
+   * it's better version of hue saturation for saturation purposes
+   * Vibrance is better choice if you dont care about changing color but rather about pure saturation
+
+**** PHOTO FILTER ADJUSTMENT
+   * it has some presets that allow you to add some simple adjustments based on real life camera lens filters
