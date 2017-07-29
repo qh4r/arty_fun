@@ -1,0 +1,45 @@
+**** O - DODGE TOOL
+   * lightens areas in image
+   - also there (same shortcut):
+   * BURN TOOL - darkens image
+   * SPONGE TOOL -saturate or desaturate
+**** CMD + J -- duplicate layer
+
+*** CMD + SHIFT + N -- new layer
+
+**** S - CLONE STAMP TOOL
+   * it's best to use this tool with new layer with setting SAMPLE to CURRENT & BELOW 
+     - this way we do not apply destructive changes to layer that we want to alter
+     -  we use image as a source but new empty layer as a target
+   * you target sample with OPTION and apply without it
+
+**** J - SPOT HEALING BRUSH - do not need samplingn and allow photoshop algorythms to smartly remove all defects in clicked place
+
+**** J - HEALING BRUSH - WORKS LIKE CLONE STAMP BUT it tries to match tone/ texture
+
+**** J - PATCH TOOL  - lets you fix whole areas
+       - good to use content aware
+        * ITS GREAT TO USE IT FOR BIGGER AREAS 
+        ~ when we want to remove something quite large and surrounded by sth complex from photo
+        * if there is a lot of detail and content aware adds blur to edges
+         - it's best to use Patch: Normal
+        
+**** It's also possible to select area  and use EDIT > FILL.. and chose CONTENT AWARE FILL and let photoshop do the magic
+     - but it might be less precise
+     * FILL --> SHIFT + F5
+
+**** J - CONTENT AWARE MOVE TOOL works like PATCH TOOL but it moves elements (so applies changes in 2 palces)
+      - if you select Mode: EXTEND instead of MOVE - it will not remove source element
+
+**** E - ERASER TOOL
+     E - BACKGROUND ERASER TOOL - has nice behavior with SAMPLE ONCE MODE - it removes only one color
+
+
+**** EASY SHARPENING
+    - COPY LAYER
+    - USE FILTER > OTHER > HIGH PASS FILTER 
+    - USE LOW VALUE (like 9)
+    - SET COPIED FILTERED LAYER BLENDING MODE TO OVERLAY (which ignores gray)
+    - PROFIT ~ MAGIC
+
+*** SHARPEN, BLUR and SPONGE tools are not that useful BETTER STAY AWAY
