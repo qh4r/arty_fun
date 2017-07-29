@@ -19,3 +19,23 @@
 
 **** IF YOU PRESS AND HOLD outside of CROP TOOL SELECTION you will be able to ROTATE THE SELECTION/IMAGE
 **** you can also use STRAITHEN option available in top menu while cropping to draw a line that should be made horizontal
+
+**** In FREE TRANSFORMATION you can distort while holding CMD
+   * with alt it dorts using selected and oposing node
+
+**** CMD + ALT + SHIFT + C --- CONTENT AWARE SCALE - it allows you to rescale only 1 dimension the smart way so that
+     image is not getting distorted
+   * YOU CAN USE SAVED SELECTION in PROTECT dropdown to say CONTANT AWARE SCALE THAT IT SHOULD NOT TOCH CERTAIN AREA
+
+**** PUPPET WRAP 
+   * EDIT > PUPPET WRAP
+   * smartli selects humans and allows you to transform humanoidal selection using pins and dragging
+   - pin blocks element - then you can drag stuff around
+   - pin depth can control what part of selection is on top
+   * YOU CAN USE PUPPET WRAP FOR OTHER types of structures
+
+**** PERSPECTIVE WRAP
+   * EDIT > PERSPECTIVE WRAP 
+   - you can change perspective of image parts inside layout selection
+   - to lock part of image make separate layout selection for it
+   - it's too easy to disort whole image, you will problaly need to crop sides anyway
