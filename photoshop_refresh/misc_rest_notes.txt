@@ -1,0 +1,33 @@
+**** T --- TYPE TOOL
+   * if you click you will get text in place ~POINT TYPE
+   * if you click and drag you will get text area ~AREA TYPE
+
+**** RULERS
+   * IF YOU DRAG FROM TOP LEFT CORNER YOU CAN SET RULER 0  POINT instead of guide
+   -- while placing guide you can press alt to flip guide to oposite orientation
+   --- VIEW > CLEAR GUIDES - removes all
+   -- YOU CAN DRAG GUIDE FROM RULER or you can go to VIEW > NEW GUIDE
+   * you can MOVE A GUIDE with MOVE TOOL selected
+   -- you can LOCK GUIDES in VIEW 
+
+**** you can select if SNAP is active and what should be snapped to in view menu
+
+**** VIEW > NEW LAYOUT GRID --- lets you create designer (bootstrap?) style layout
+   * typical for gui websites etc
+
+**** you can use paper like GRID -- VIEW > SHOW > GRID
+    - CMD + ' -- TOGGLE GRID HOTKEY
+    - GUIDES seem to have more sense for layout
+    - GRID for shapes on white or transparent background
+
+**** you can save multiple layers separatly selectting multiple layers and rightclicking to EXPORT AS
+	- you can use SCALE ALL  to save multiple scales pngs for each layer
+
+**** while using MOVE TOOL (V) you can coy objects if you hold OPTION while draging
+
+**** A -- PATH SELECTOR TOOL - can edit FIGURES this way
+
+**** SMART OBJECTS 
+   * right click and select CONVERT TO SMAR OBJECT
+   * you can double click smart object to edit it
+   * edditing smart object will apply change to ALL ITS COPIES!
